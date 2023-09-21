@@ -21,7 +21,7 @@ public class HashController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "잎새들 하이";
+        return "잎새들 하이 배포 수업 중인데 집에 가고 싶다.. 맛점해";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
@@ -36,7 +36,7 @@ public class HashController {
 
     @RequestMapping("/congrat")
     public String congret() {
-        return "지은아 생일 축하해 ~~~~ !!!  -연수";
+        return "지은아 생일 축하해 ~~~~ !!! ";
     }
 
 
